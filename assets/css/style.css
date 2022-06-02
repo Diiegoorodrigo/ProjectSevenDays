@@ -111,18 +111,19 @@ padding-left: 100px;
 
 .about-us
 {
-    height:307px ;
+    height:407px ;
     text-align: center;
-    padding: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+
 }
 
 .about-us h3
 {
 font-size: 16px;
 color: var(--colorFour);
+padding-top: 100px;
 }
 
 .about-us h2
@@ -139,5 +140,87 @@ color: var(--colorFour);
     font-weight: 400px;
     max-width: 791px;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
+
+.metric
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0 112px 100px 112px;
+    justify-content: space-evenly;
+}
+
+.metric div h2
+{
+    font-size: 60px;
+    color: var(--colorFour);
+    font-weight: 600;
+}
+
+.metric div h3
+{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: var(--colorOne);
+}
+
+.metric div p
+{
+    font-size: 16px;
+    margin: 0;
+    color: var(--colorTwo)
+}
+
+.box
+{
+    width: 280px;
+}
+
+.jobs
+{
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.presset img
+{
+    width: 100%;
+}
+
+.presset h2
+{
+    font-size: 36px;
+    color: var(--colorOne);
+    font-weight: 600;
+    margin: 20px 0;
+   
+}
+
+.presset h3
+{
+    
+    font-size: 12px;
+    color:var(--colorFour);
+    background: rgba(142, 36, 36, 0.05);
+    width: 100PX;
+    margin: auto;
+    padding: 3px;
+    border-radius: 10PX;
+}
+
+.presset p
+{
+    font-size: 20px;
+    margin: 0;
+    color: var(--colorTwo);
+    margin-bottom: 65px;
+}
+
 

@@ -108,3 +108,36 @@ padding-left: 100px;
     text-decoration: none;
     color: var(--colorTwo);
 }
+
+.about-us
+{
+    height:307px ;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-us h3
+{
+font-size: 16px;
+color: var(--colorFour);
+}
+
+.about-us h2
+{
+    font-size: 48px;
+    color: var(--colorOne);
+    font-weight: 600;
+}
+
+.about-us p
+{
+    font-size: 20px;
+    color: #667085;
+    font-weight: 400px;
+    max-width: 791px;
+    margin: 0 auto;
+}
+

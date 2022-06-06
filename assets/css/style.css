@@ -32,6 +32,8 @@
 
 
 
+
+
 .logo-bar 
 {
 
@@ -150,14 +152,14 @@ padding-top: 100px;
     justify-content: space-evenly;
 }
 
-.metric div h2
+.box h2
 {
     font-size: 60px;
     color: var(--colorFour);
     font-weight: 600;
 }
 
-.metric div h3
+.box h3
 {
     margin-top: 12px;
     margin-bottom: 8px;
@@ -165,7 +167,7 @@ padding-top: 100px;
     color: var(--colorOne);
 }
 
-.metric div p
+.box p
 {
     font-size: 16px;
     margin: 0;
@@ -429,7 +431,7 @@ footer
 
 .box
 {
-    width: 150px;
+width: 150px;
 }
 
 
@@ -472,7 +474,7 @@ footer
 
     .presset img
     {
-        width: 80%;
+        width: 90%;
     }
 
     .report
@@ -486,8 +488,94 @@ footer
 
 @media (max-width: 900px)
 {
-    .menu
+   .bar
+   {
+       display: none;
+   }
+
+   .buttons-nav
+   {
+       display: none;
+   }
+   .logo-bar
+   {
+       justify-content: center;
+   }
+
+   .about-us h2
+   {
+       font-size: 30px;
+   }
+
+   .about-us p
+   {
+       font-size: 15px;
+   }
+
+   .metric
+   {
+       padding: 0px 30px 112px 30px ;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: center;
+       gap: 30px;
+      
+   }
+
+   .box
+   {
+       width: auto;
+       text-align: center;
+   }
+
+   .form
+   {
+       max-width: 600px;
+       margin:0 auto;
+
+   }
+  
+   .text-r h2
+   {
+       font-size: 25px;
+   }
+
+   .text-box
+   {
+       width: 80%;
+   }
+
+   .text-box h2
+   {
+       font-size: 25px;
+   }
+
+   .email
+   {
+       width: auto;
+   }
+
+   
+
+}
+
+@media (max-width:600px)
+{
+    .metric
     {
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
+
+    .box h2
+    {
+        font-size: 50px;
+    }
+
+    .oport
+    {
+        width: 80%;
+    }
+
+
 }

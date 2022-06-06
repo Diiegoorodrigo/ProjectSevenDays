@@ -209,7 +209,7 @@ padding-top: 100px;
     font-size: 12px;
     color:var(--colorFour);
     background: rgba(142, 36, 36, 0.05);
-    width: 100PX;
+    max-width: 100px;
     margin: auto;
     padding: 3px;
     border-radius: 10PX;
@@ -274,7 +274,7 @@ padding-top: 100px;
 
 .propos
 {
-    width: 810px;
+   max-width: 810px;
     text-align: initial;
 }
 
@@ -291,7 +291,7 @@ padding-top: 100px;
 
 .text-r
 {
-    width: 1088px;
+    max-width: 1088px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,7 +317,7 @@ padding-top: 100px;
 
 .ima 
 {
-    width: 1088px;
+    max-width: 1088px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -357,7 +357,7 @@ padding-top: 100px;
 
 .send-form
 {
-    width: 768px;
+   max-width: 768px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,4 +422,72 @@ footer
     font-size: 16PX;
     color: #98A2B3;;
     font-weight: 400;
+}
+
+@media (max-width:1300px)
+{
+
+.box
+{
+    width: 150px;
+}
+
+
+
+
+    
+}
+
+@media (max-width:1055px)
+{
+    h2
+    {
+        font-size: 20px;
+    }
+
+    .logo-bar
+    {
+        padding-left: 0;
+    }
+
+    .bar 
+    {
+        flex-grow: 1;
+    }
+
+    .buttons-nav
+    {
+        padding-right: 0;
+    }
+
+    .jobs
+    {
+        padding: 0;
+    }
+
+    .oport
+    {
+        width: 500px;
+    }
+
+    .presset img
+    {
+        width: 80%;
+    }
+
+    .report
+    {
+        padding: 0;
+        
+    }
+
+
+}
+
+@media (max-width: 900px)
+{
+    .menu
+    {
+        display: none;
+    }
 }
